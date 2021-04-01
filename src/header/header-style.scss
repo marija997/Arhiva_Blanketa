@@ -1,0 +1,25 @@
+.header-container {
+  max-width: 100%;
+  padding: 0;
+  .scrolling-navbar {
+    background-color: #03254c;
+  }
+  header nav {
+    img {
+      height: 3.5rem;
+    }
+    ul {
+      li {
+        a {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+.homepage-header {
+  header nav {
+    box-shadow: none;
+    background-color: transparent !important;
+  }
+}
